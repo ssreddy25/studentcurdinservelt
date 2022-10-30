@@ -1,0 +1,77 @@
+<!DOCTYPE web-app PUBLIC
+ "-//Sun Microsystems, Inc.//DTD Web Application 2.3//EN"
+ "http://java.sun.com/dtd/web-app_2_3.dtd" >
+
+<web-app>
+  <display-name>Archetype Created Web Application</display-name>
+  <servlet>
+  	<servlet-name>CreateStudent</servlet-name>
+  	<display-name>CreateStudent</display-name>
+  	<description></description>
+  	<servlet-class>studentservelet.CreateStudent</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>CreateStudent1</servlet-name>
+  	<display-name>CreateStudent1</display-name>
+  	<description></description>
+  	<servlet-class>studentcreate.CreateStudent</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>ViewStudent</servlet-name>
+  	<display-name>ViewStudent</display-name>
+  	<description></description>
+  	<servlet-class>studentcreate.ViewStudent</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>ViewAllStudent</servlet-name>
+  	<display-name>ViewAllStudent</display-name>
+  	<description></description>
+  	<servlet-class>studentcreate.ViewAllStudent</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>DleteStudent</servlet-name>
+  	<display-name>DleteStudent</display-name>
+  	<description></description>
+  	<servlet-class>studentcreate.DleteStudent</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>EditStudent</servlet-name>
+  	<display-name>EditStudent</display-name>
+  	<description></description>
+  	<servlet-class>studentcreate.EditStudent</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>UpdateStudent</servlet-name>
+  	<display-name>UpdateStudent</display-name>
+  	<description></description>
+  	<servlet-class>studentcreate.UpdateStudent</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  	<servlet-name>CreateStudent</servlet-name>
+  	<url-pattern>/create</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>CreateStudent1</servlet-name>
+  	<url-pattern>/createstu1</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>ViewStudent</servlet-name>
+  	<url-pattern>/vstudent</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>ViewAllStudent</servlet-name>
+  	<url-pattern>/vallstudent</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>DleteStudent</servlet-name>
+  	<url-pattern>/deletestu</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>EditStudent</servlet-name>
+  	<url-pattern>/editstudent</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>UpdateStudent</servlet-name>
+  	<url-pattern>/updateStudent</url-pattern>
+  </servlet-mapping>
+</web-app>

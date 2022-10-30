@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<!-- CSS only -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+<title>student registreation form</title>
+</head>
+<body>
+<form action="./createstu1" method="post">
+<table>
+<tr class="card card-header">
+<td>Student registerform</td>
+</tr>
+<tr ">
+<td>student id</td>
+<td><input type="text" name="sid" required></td>
+</tr>
+<tr>
+<td>student name</td>
+<td><input type="text" name="sname" required></td>
+
+</tr>
+<tr>
+<td>student rollno</td>
+<td><input type="text" name="srllno" required></td>
+
+</tr>
+<tr>
+<td>student grade</td>
+<td><select name="garde">
+<option value="A">A</option>
+<option value="B">B</option>
+<option value="C">C</option>
+<option value="D">D</option>
+<option value="E">E</option>
+</select></td>
+
+</tr>
+<tr>
+<td><button  class ="btn btn-primary" type="submit" >register</button></td>
+<td><button  class ="btn btn-danger" type="reset" >cancel</button></td>
+</tr>
+</table>
+<a href="./vallstudent" class ="btn btn-primary">view all student</a>
+</form>
+
+</body>
+</html>
